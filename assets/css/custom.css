@@ -156,7 +156,7 @@
   margin-bottom: 0;
 }
 #navbarLogo {
-  max-height: 90px; /* match reference size */
+  height: 80px; /* match reference size */
   width: auto;
 }
 
@@ -167,13 +167,13 @@
 }
 
 .navbar {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 /* Responsive tweaks */
 @media (max-width: 768px) {
   #navbarLogo {
-    max-height: 70px;
+    max-height: 60px;
   }
   .brand-text {
     font-size: 1.5rem;
