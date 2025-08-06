@@ -8,9 +8,9 @@ include 'includes/header.php';
   <div class="owl-carousel owl-theme">
     <?php
     $slides = [
-      ['img'=>'assets/images/slide1.png','caption'=>'Education for All'],
-      ['img'=>'assets/images/slide2.png','caption'=>'Education for All'],
-      ['img'=>'assets/images/slide3.jpg','caption'=>'Healthcare Initiatives'],
+      ['img'=>'assets/images/slide5.png','caption'=>'Water Sanitization'],
+      ['img'=>'assets/images/slide3.png','caption'=>'Education for All'],
+      ['img'=>'assets/images/slide4.png','caption'=>'Healthcare Initiatives'],
     ];
     foreach($slides as $s): ?>
       <div class="item position-relative">

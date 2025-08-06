@@ -155,9 +155,27 @@
   color: #333;
   margin-bottom: 0;
 }
+#navbarLogo {
+  max-height: 90px; /* match reference size */
+  width: auto;
+}
 
+.brand-text {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 /* Responsive tweaks */
 @media (max-width: 768px) {
-  .carousel-caption h1 { font-size: 2rem; }
-  .section-title { font-size: 2rem; }
+  #navbarLogo {
+    max-height: 70px;
+  }
+  .brand-text {
+    font-size: 1.5rem;
+    }
 }
